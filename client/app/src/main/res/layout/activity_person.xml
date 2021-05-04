@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="12dp"
+    tools:context=".ui.activities.PersonActivity">
+    
+    <TextView
+        android:id="@+id/person_first_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:text="@string/error_no_person" />
+    
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="start"
+        android:text="@string/person_first_name_text" />
+    
+    <include layout="@layout/view_horizontal_line"/>
+    
+    <TextView
+        android:id="@+id/person_last_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:text="@string/error_no_person" />
+    
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="start"
+        android:text="@string/person_last_name_text" />
+    
+    <include layout="@layout/view_horizontal_line"/>
+    
+    <TextView
+        android:id="@+id/person_gender"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:text="@string/error_no_person" />
+    
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="start"
+        android:text="@string/person_gender_text" />
+    
+    <include layout="@layout/view_horizontal_line"/>
+    
+    <ExpandableListView
+        android:id="@+id/expandable_person_data_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:dividerHeight="0.5dp"
+        android:divider="@color/view_line"/>
+
+</LinearLayout>

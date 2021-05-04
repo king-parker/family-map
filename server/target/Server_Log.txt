@@ -1,0 +1,40 @@
+Fri Mar 26 09:51:35 MDT 2021 server.Server loadData
+   SEVERE: Location data was not loaded: json\locations.json (The system cannot find the path specified)
+java.io.FileNotFoundException: json\locations.json (The system cannot find the path specified)
+	at java.base/java.io.FileInputStream.open0(Native Method)
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:213)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:155)
+	at java.base/java.io.FileReader.<init>(FileReader.java:75)
+	at server.Server.loadData(Server.java:116)
+	at server.Server.<clinit>(Server.java:59)
+
+Fri Mar 26 09:51:35 MDT 2021 server.Server loadData
+   SEVERE: Female name data was not loaded: json\fnames.json (The system cannot find the path specified)
+java.io.FileNotFoundException: json\fnames.json (The system cannot find the path specified)
+	at java.base/java.io.FileInputStream.open0(Native Method)
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:213)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:155)
+	at java.base/java.io.FileReader.<init>(FileReader.java:75)
+	at server.Server.loadData(Server.java:116)
+	at server.Server.<clinit>(Server.java:60)
+
+Fri Mar 26 09:51:35 MDT 2021 server.Server loadData
+   SEVERE: Male name data was not loaded: json\mnames.json (The system cannot find the path specified)
+java.io.FileNotFoundException: json\mnames.json (The system cannot find the path specified)
+	at java.base/java.io.FileInputStream.open0(Native Method)
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:213)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:155)
+	at java.base/java.io.FileReader.<init>(FileReader.java:75)
+	at server.Server.loadData(Server.java:116)
+	at server.Server.<clinit>(Server.java:61)
+
+Fri Mar 26 09:51:35 MDT 2021 server.Server loadData
+   SEVERE: Surname data was not loaded: json\snames.json (The system cannot find the path specified)
+java.io.FileNotFoundException: json\snames.json (The system cannot find the path specified)
+	at java.base/java.io.FileInputStream.open0(Native Method)
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:213)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:155)
+	at java.base/java.io.FileReader.<init>(FileReader.java:75)
+	at server.Server.loadData(Server.java:116)
+	at server.Server.<clinit>(Server.java:62)
+
