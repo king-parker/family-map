@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="map_event_info_spacing">12dp</dimen>
+    <dimen name="padding_list_item">12dp</dimen>
+    <dimen name="info_spacing_item">8dp</dimen>
+    <dimen name="padding_settings_list">12dp</dimen>
+    <dimen name="padding_settings_text">2dp</dimen>
+</resources>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#03DAC5</color>
+    
+    <color name="view_line">#303030</color>
+    
+    <color name="action_icon">#a0a000</color>
+    
+    <color name="noEventSelected">#707070</color>
+    <color name="maleIcon">#000080</color>
+    <color name="femaleIcon">#ec5074</color>
+</resources>

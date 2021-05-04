@@ -1,0 +1,326 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="top"
+    android:paddingHorizontal="@dimen/padding_settings_list"
+    tools:context=".ui.activities.SettingsActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingVertical="@dimen/padding_settings_list" >
+        
+        <TextView
+            android:id="@+id/title_life_story"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/life_story_title"
+            android:paddingBottom="@dimen/padding_settings_text"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_toStartOf="@id/switch_life_story"
+            android:layout_toLeftOf="@id/switch_life_story"
+            android:layout_alignParentTop="true" />
+        
+        <TextView
+            android:id="@+id/description_life_story"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/life_story_description"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_toStartOf="@id/switch_life_story"
+            android:layout_toLeftOf="@id/switch_life_story"
+            android:layout_below="@id/title_life_story" />
+        
+        <androidx.appcompat.widget.SwitchCompat
+            android:id="@+id/switch_life_story"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            />
+        
+    </RelativeLayout>
+    
+    <include layout="@layout/view_horizontal_line" />
+    
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingVertical="@dimen/padding_settings_list" >
+        
+        <TextView
+            android:id="@+id/title_family_tree"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/family_tree_title"
+            android:paddingBottom="@dimen/padding_settings_text"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_toStartOf="@id/switch_family_tree"
+            android:layout_toLeftOf="@id/switch_family_tree"
+            android:layout_alignParentTop="true" />
+        
+        <TextView
+            android:id="@+id/description_family_tree"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/family_tree_description"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_toStartOf="@id/switch_family_tree"
+            android:layout_toLeftOf="@id/switch_family_tree"
+            android:layout_below="@id/title_family_tree" />
+        
+        <androidx.appcompat.widget.SwitchCompat
+            android:id="@+id/switch_family_tree"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            />
+    
+    </RelativeLayout>
+    
+    <include layout="@layout/view_horizontal_line" />
+    
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingVertical="@dimen/padding_settings_list" >
+        
+        <TextView
+            android:id="@+id/title_spouse"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/spouse_title"
+            android:paddingBottom="@dimen/padding_settings_text"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_toStartOf="@id/switch_spouse"
+            android:layout_toLeftOf="@id/switch_spouse"
+            android:layout_alignParentTop="true" />
+        
+        <TextView
+            android:id="@+id/description_spouse"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/spouse_description"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_toStartOf="@id/switch_spouse"
+            android:layout_toLeftOf="@id/switch_spouse"
+            android:layout_below="@id/title_spouse" />
+        
+        <androidx.appcompat.widget.SwitchCompat
+            android:id="@+id/switch_spouse"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            />
+    
+    </RelativeLayout>
+    
+    <include layout="@layout/view_horizontal_line" />
+    
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingVertical="@dimen/padding_settings_list" >
+        
+        <TextView
+            android:id="@+id/title_father_side"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/father_side_title"
+            android:paddingBottom="@dimen/padding_settings_text"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_toStartOf="@id/switch_father_side"
+            android:layout_toLeftOf="@id/switch_father_side"
+            android:layout_alignParentTop="true" />
+        
+        <TextView
+            android:id="@+id/description_father_side"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/father_side_description"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_toStartOf="@id/switch_father_side"
+            android:layout_toLeftOf="@id/switch_father_side"
+            android:layout_below="@id/title_father_side" />
+        
+        <androidx.appcompat.widget.SwitchCompat
+            android:id="@+id/switch_father_side"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            />
+    
+    </RelativeLayout>
+    
+    <include layout="@layout/view_horizontal_line" />
+    
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingVertical="@dimen/padding_settings_list" >
+        
+        <TextView
+            android:id="@+id/title_mother_side"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/mother_side_title"
+            android:paddingBottom="@dimen/padding_settings_text"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_toStartOf="@id/switch_mother_side"
+            android:layout_toLeftOf="@id/switch_mother_side"
+            android:layout_alignParentTop="true" />
+        
+        <TextView
+            android:id="@+id/description_mother_side"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/mother_side_description"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_toStartOf="@id/switch_mother_side"
+            android:layout_toLeftOf="@id/switch_mother_side"
+            android:layout_below="@id/title_mother_side" />
+        
+        <androidx.appcompat.widget.SwitchCompat
+            android:id="@+id/switch_mother_side"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            />
+    
+    </RelativeLayout>
+    
+    <include layout="@layout/view_horizontal_line" />
+    
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingVertical="@dimen/padding_settings_list" >
+        
+        <TextView
+            android:id="@+id/title_male_events"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/male_events_title"
+            android:paddingBottom="@dimen/padding_settings_text"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_toStartOf="@id/switch_male_events"
+            android:layout_toLeftOf="@id/switch_male_events"
+            android:layout_alignParentTop="true" />
+        
+        <TextView
+            android:id="@+id/description_male_events"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/male_events_description"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_toStartOf="@id/switch_male_events"
+            android:layout_toLeftOf="@id/switch_male_events"
+            android:layout_below="@id/title_male_events" />
+        
+        <androidx.appcompat.widget.SwitchCompat
+            android:id="@+id/switch_male_events"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            />
+    
+    </RelativeLayout>
+    
+    <include layout="@layout/view_horizontal_line" />
+    
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingVertical="@dimen/padding_settings_list" >
+        
+        <TextView
+            android:id="@+id/title_female_events"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/female_events_title"
+            android:paddingBottom="@dimen/padding_settings_text"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_toStartOf="@id/switch_female_events"
+            android:layout_toLeftOf="@id/switch_female_events"
+            android:layout_alignParentTop="true" />
+        
+        <TextView
+            android:id="@+id/description_female_events"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/female_events_description"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_toStartOf="@id/switch_female_events"
+            android:layout_toLeftOf="@id/switch_female_events"
+            android:layout_below="@id/title_female_events" />
+        
+        <androidx.appcompat.widget.SwitchCompat
+            android:id="@+id/switch_female_events"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            />
+    
+    </RelativeLayout>
+    
+    <include layout="@layout/view_horizontal_line" />
+    
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingVertical="@dimen/padding_settings_list" >
+        
+        <TextView
+            android:id="@+id/title_logout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/logout_title"
+            android:paddingBottom="@dimen/padding_settings_text"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true" />
+        
+        <TextView
+            android:id="@+id/description_logout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/logout_description"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@id/title_logout" />
+    
+    </RelativeLayout>
+    
+    <include layout="@layout/view_horizontal_line" />
+    
+</LinearLayout>

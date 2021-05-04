@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ui.fragments.LoginFragment">
+    
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:addStatesFromChildren="false"
+        android:columnCount="2"
+        android:rowCount="8"
+        android:padding="24dp">
+        
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_columnWeight="0"
+            android:layout_row="0"
+            android:layout_column="0"
+            android:layout_gravity="end|center_vertical"
+            android:text="@string/server_host_login_text" />
+        
+        <EditText
+            android:id="@+id/server_host_edit"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_columnWeight="1"
+            android:layout_row="0"
+            android:layout_column="1"
+            android:importantForAutofill="no"
+            android:inputType="text"
+            android:textAppearance="@style/TextAppearance.AppCompat.Small" />
+        
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_columnWeight="0"
+            android:layout_row="1"
+            android:layout_column="0"
+            android:layout_gravity="end|center_vertical"
+            android:text="@string/server_port_login_text" />
+        
+        <EditText
+            android:id="@+id/server_port_edit"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_columnWeight="1"
+            android:layout_row="1"
+            android:layout_column="1"
+            android:importantForAutofill="no"
+            android:inputType="number"
+            android:textAppearance="@style/TextAppearance.AppCompat.Small" />
+        
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_columnWeight="0"
+            android:layout_row="2"
+            android:layout_column="0"
+            android:layout_gravity="end|center_vertical"
+            android:text="@string/user_name_login_text" />
+        
+        <EditText
+            android:id="@+id/user_name_edit"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_columnWeight="1"
+            android:layout_row="2"
+            android:layout_column="1"
+            android:importantForAutofill="no"
+            android:inputType="text"
+            android:textAppearance="@style/TextAppearance.AppCompat.Small" />
+        
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_columnWeight="0"
+            android:layout_row="3"
+            android:layout_column="0"
+            android:layout_gravity="end|center_vertical"
+            android:text="@string/password_login_text" />
+        
+        <EditText
+            android:id="@+id/password_edit"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_columnWeight="1"
+            android:layout_row="3"
+            android:layout_column="1"
+            android:importantForAutofill="no"
+            android:inputType="textPassword"
+            android:textAppearance="@style/TextAppearance.AppCompat.Small" />
+        
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_columnWeight="0"
+            android:layout_row="4"
+            android:layout_column="0"
+            android:layout_gravity="end|center_vertical"
+            android:text="@string/first_name_login_text" />
+        
+        <EditText
+            android:id="@+id/first_name_edit"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_columnWeight="1"
+            android:layout_row="4"
+            android:layout_column="1"
+            android:importantForAutofill="no"
+            android:inputType="textPersonName"
+            android:textAppearance="@style/TextAppearance.AppCompat.Small" />
+        
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_columnWeight="0"
+            android:layout_row="5"
+            android:layout_column="0"
+            android:layout_gravity="end|center_vertical"
+            android:text="@string/last_name_login_text" />
+        
+        <EditText
+            android:id="@+id/last_name_edit"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_columnWeight="1"
+            android:layout_row="5"
+            android:layout_column="1"
+            android:importantForAutofill="no"
+            android:inputType="textPersonName"
+            android:textAppearance="@style/TextAppearance.AppCompat.Small" />
+        
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_columnWeight="0"
+            android:layout_row="6"
+            android:layout_column="0"
+            android:layout_gravity="end|center_vertical"
+            android:text="@string/email_login_text" />
+        
+        <EditText
+            android:id="@+id/email_edit"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_columnWeight="1"
+            android:layout_row="6"
+            android:layout_column="1"
+            android:importantForAutofill="no"
+            android:inputType="textEmailAddress"
+            android:textAppearance="@style/TextAppearance.AppCompat.Small" />
+        
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_columnWeight="0"
+            android:layout_row="7"
+            android:layout_column="0"
+            android:layout_gravity="end|center_vertical"
+            android:text="@string/gender_login_text" />
+        
+        <RadioGroup
+            android:id="@+id/radio_gender"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_columnWeight="1"
+            android:layout_row="7"
+            android:layout_column="1"
+            android:orientation="horizontal">
+            
+            <RadioButton
+                android:id="@+id/radio_male"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/male_select" />
+            
+            <RadioButton
+                android:id="@+id/radio_female"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/female_select" />
+        
+        </RadioGroup>
+    
+    </GridLayout>
+    
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="horizontal">
+        
+        <Button
+            android:id="@+id/button_sign_in"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/sign_in_button" />
+        
+        <Button
+            android:id="@+id/button_register"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/register_button" />
+    
+    </LinearLayout>
+    
+    <com.joanzapata.iconify.widget.IconTextView
+        android:id="@+id/loading_icon"
+        android:paddingTop="48dp"
+        android:textSize="24sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"/>
+
+</LinearLayout>
